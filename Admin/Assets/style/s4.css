@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    line-height: 1.7;
+    font-family:Calibri;
+    font-size: 1.1rem;
+    background-color:#f8f8f8;
+}
+h2
+{
+    font-size: 2rem;
+    font-weight: 600;
+}
+/*=========================================================
+                        common style 
+===========================================================*/
+#btn
+{
+    color: white;
+    background-color: #dd3333;
+}
+.validation-red
+{
+   color: #c02828;
+    font-size: 16px;
+}
+.validation-green
+{
+    color:#067932;
+    font-size: 16px;
+}
+/*=========================================================
+                        Menu style 
+===========================================================*/
+.navbar
+{
+    background-color:white;
+}
+.navbar-nav .nav-link
+{
+    font-size: 15px;
+    font-family:Bahnschrift;
+    margin:0px 5px;
+    color:rgb(69, 69, 69);
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active
+{
+    color:rgb(240, 0, 0);
+    transition: 0.4s ease;
+}
+.dropdown-menu
+{
+    border-style: none;
+    outline: none;
+}
+.dropdown-menu .dropdown-item
+{
+    color:rgb(69, 69, 69);
+    font-size: 14px;
+    font-family:Bahnschrift;
+}
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item .active
+{
+    background-color:#0088ff;
+    color: white;
+}
+/*=======Style======*/
+.stronghold-heading .heading-subtitle {
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+    display: -webkit-flex;
+    font-family: "Montserrat", sans-serif;
+    color: #126883;
+    margin-top: 4%;
+}
+.stronghold-heading .heading-sep-front, .stronghold-heading .heading-sep-back {
+    content: "";
+    height: 2px;
+    width: 30px;
+    background: #dd3333;
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/*=========================================================
+                        Register style 
+===========================================================*/
+.signuptitle1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color:rgb(92, 92, 92);
+    text-align: center;
+    font-size: 16px;
+}
+.signuptitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color:#dd3333;
+    font-size: 22px;
+}
+
+#user {
+    font-family: Calibri;
+    background-color:#f5f5f5  ;
+
+}
+
+#user:hover {
+    border-color:#ac2828;
+    transition: 0.7s ease-in-out;
+}
+
+#signupbtn {
+    background-color:#dd3333;
+    color: white;
+    font-family: Calibri;
+    border-radius: 16px;
+}
+
+#signupbtn:hover {
+    background-color:#c93636;
+    color: white;
+}
+
+.signinmsg {
+    font-family:Calibri;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(72, 72, 72);
+}
+/*=========================================================
+                        Table style 
+===========================================================*/
+.wrapper
+{
+    overflow-x: auto;
+    display: flex;
+}
+.wrapper::-webkit-scrollbar
+{
+    width: 0;
+}
+.table-header
+{
+    font-size: 16px;
+    font-family: Calibri;
+   color: white;
+    background-color: #126883;
+}
+.table-detail
+{
+    font-size: 15px;
+    font-family:dubai;
+    color:rgb(87, 87, 87);
+}
+#image
+{
+    width:auto;
+    height: 70px;
+}
+/*=========================================================
+                        Footer style 
+===========================================================*/
+.ftr
+{
+    background: #c02828;
+    color: rgb(231, 231, 231);
+    text-align: center;
+    font-size: 14px;
+    font-family:Bahnschrift;
+}
+/*=========================================================
+                        Dashboard style 
+===========================================================*/
+.ract
+{
+    background-color:#ffffff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 4%;
+    box-shadow: 0px 0 20px 0 rgba(90, 90, 90, 0.1);
+}
+.ract:hover
+{
+    box-shadow: 0px 0 20px 0 rgba(67, 67, 67, 0.2);
+    transition: 0.6s ease;
+}
+.d-icon
+{
+    color:crimson;
+}
+.d-title
+{
+    font-size: 16px;
+    font-family: dubai;
+    font-weight: 500;
+    padding-left: 4%;
+    color: rgb(57, 57, 57);
+}
+.d-total
+{
+    font-size: 16px;
+    font-family: dubai;
+    font-weight:bold;
+    color: rgb(34, 34, 34);
+}
+#cart
+{
+    box-shadow: 0px 0 25px 0 rgba(149, 149, 149, 0.2);
+    border-style: none;
+}
+.card-header
+{
+    color: rgb(57, 57, 57);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Calibri;
+}
+/*=========================================================
+                        Bill style 
+===========================================================*/
+.card-text
+{
+    font-size: 14px;
+    font-family: Calibri;
+    font-weight: 600;
+    color: rgb(57, 57, 57);
+}
+.bill-text
+{
+    font-size: 14px;
+    font-family: Calibri;
+    font-weight: 600;
+    color:rgb(65, 65, 65);
+}
+.storename
+{
+    font-size: 18px;
+    font-family: Calibri;
+    font-weight: 700;
+    color:rgb(41, 41, 41);
+}
+.bill-header
+{
+    color:rgb(220, 49, 49);
+    font-size: 14px;
+}
