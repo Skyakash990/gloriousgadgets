@@ -7,7 +7,7 @@ include("authenticate.php");
 
 <div class="py-5">
     <div class="container">
-        <div class="col-md-12">
+        <div class="col-md-12" id="remove">
         <?php $items = getCartItems();
             if(mysqli_num_rows($items)>0)
             {
@@ -32,7 +32,7 @@ include("authenticate.php");
                     foreach ($items as $citem) 
                     {
                         ?>
-                            <div class="card product_data shadow-sm mb-3" id="remove">
+                            <div class="card product_data shadow-sm mb-3" >
 
                                 <div class="row align-items-center">
                                     <div class="col-md-2 py-4" style="padding-left:50px">
@@ -54,10 +54,10 @@ include("authenticate.php");
                                         </div>
                                     </div>
                                     <div class="col-md-2">
-                                        <a href="cart.php">
+                                        <!-- <a href="cart.php"> -->
                                             <button class="btn btn-danger btn-sm deleteItem" value="<?= $citem['cid'] ?>">
                                                 <i class="fa fa-trash me-2"></i>Remove</button>
-                                        </a>
+                                        <!-- </a> -->
                                     </div>
                                 </div>
                             </div>

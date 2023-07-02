@@ -99,7 +99,7 @@ $(document).ready(function () {
              }
             else
             {
-                alertify.notify(response);
+                alertify.notify("Item Removed");
 
             }
         }
